@@ -1,0 +1,17 @@
+body {
+  background-color: #000;
+}
+
+.divider {
+  background-color: #eee;
+}
+#intro {
+  background-image: url("../img/intro.jpg");
+  
+}
+
+@media (min-width: 576px) {
+  #intro {
+    height: 600px;
+  }
+}
